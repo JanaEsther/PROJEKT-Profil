@@ -24,6 +24,7 @@ body {
  margin:0;
  width:300px;
  height:204px;
+ display:flex;
 
 }
 
@@ -36,8 +37,9 @@ h1{
 	font-size: 30px;
 	margin:0;
 
-
 }
+
+
 
 .obsah {
 	background-color:#31363b;
@@ -48,39 +50,37 @@ h1{
 	height: 450px; 
 	margin:0;
 	padding:20px;
-	display:inline-block;
-	position: relative;
-	
+	display:flex;
+	flex-direction: column;
 }
 
 .foto {
 	width: 300px;
 	margin:0;
 	padding:0;
-	display:inline-block;
-	position: relative;
+	
 }	
 	
 
 .logo {
 	border-radius: 50%;
 	position: absolute;
-	left:230px; top: 160px;
+	left:245px; top: 187px;
 	margin: 0;
 	padding: 0;
+	background-color: #b92e81;
 
 	
 
 }
 	
-	
 
 .odkazy{
 	
+    width: 300px;
+    padding: 0px;
 	list-style: none;
-	padding:0;
-	margin: 0;
-	
+   
 		
 }
 
@@ -89,19 +89,25 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
-	padding:0;
-	
+	padding:0;	
 
 }
 
 .portfolio{
-	width:300px;
-	padding:0;
+
+	flex-grow: 0;
 }
 
-.portfolio odkazy{
-	display:block;
-	padding:0;
-	
-		
+
+.site{
+ display: flex;
+ flex-direction: row;
+}
+
+.facebook{
+	flex-basis: 50%;
+}
+
+.twitter{
+	flex-basis: 50%;
 }
