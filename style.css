@@ -69,19 +69,19 @@ h1{
 	margin: 0;
 	padding: 0;
 	background-color: #b92e81;
-
 	
 
 }
 	
 
 .odkazy{
-	
-    width: 300px;
+	display:flex;
+	flex-direction: row;
     padding: 0px;
 	list-style: none;
+	margin:0;
+
    
-		
 }
 
 .odkazy a{
@@ -89,25 +89,25 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
-	padding:0;	
+	padding:0;
+	margin:0;	
 
 }
 
-.portfolio{
-
-	flex-grow: 0;
-}
 
 
 .site{
  display: flex;
  flex-direction: row;
+ 
 }
 
 .facebook{
-	flex-basis: 50%;
+	flex-basis: 150px;
+	margin:0;
 }
 
 .twitter{
-	flex-basis: 50%;
+	flex-basis: 150px;
+	margin:0;
 }
