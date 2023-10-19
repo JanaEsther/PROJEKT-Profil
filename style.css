@@ -72,7 +72,18 @@ h1{
 	
 
 }
-	
+
+button{
+	padding:0;
+	margin:0;
+	background-color:#31363b;
+	height: 40px;
+}
+
+.rosa{
+	flex-basis: 150px;
+	background-color: #3f464d;
+}
 
 .odkazy{
 	display:flex;
@@ -80,34 +91,71 @@ h1{
     padding: 0px;
 	list-style: none;
 	margin:0;
-
+	background-color: #bdc3c7;
+	
    
 }
 
 .odkazy a{
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
+	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
 	padding:0;
-	margin:0;	
+	margin:0;
+	
 
 }
 
+.ananas{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 300px;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+	background-color: #bdc3c7;
+	
+	
 
+}
+
+.portfolio{
+	padding:0;
+	flex-grow:1;
+	margin:0;
+	flex-shrink: 0;
+}
+
+.a portfolio{
+	flex-basis:300px;
+	
+}
 
 .site{
  display: flex;
  flex-direction: row;
+ flex-shrink: 0;
+ background-color: #bdc3c7;
  
+ 
+
 }
 
+
 .facebook{
-	flex-basis: 150px;
+	
 	margin:0;
+	flex-grow: 1;
+	flex-shrink: 0;
+	
+	
+	
 }
 
 .twitter{
-	flex-basis: 150px;
+	
 	margin:0;
+	flex-grow: 1;
+	flex-shrink: 0;
 }
