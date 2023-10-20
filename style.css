@@ -77,10 +77,11 @@ button{
 	padding:0;
 	margin:0;
 	background-color:#31363b;
-	height: 40px;
+	height: 50px;
 }
 
-.rosa{
+.rosa,
+.pink{
 	flex-basis: 150px;
 	background-color: #3f464d;
 }
@@ -125,18 +126,25 @@ button{
 	flex-grow:1;
 	margin:0;
 	flex-shrink: 0;
+	
+	
 }
 
 .a portfolio{
 	flex-basis:300px;
 	
+	
+}
+
+.lime:hover, .menu a:focus, .menu a:active {
+	background-color:#e74c3c;
+	border: 1px;
 }
 
 .site{
  display: flex;
  flex-direction: row;
  flex-shrink: 0;
- background-color: #bdc3c7;
  
  
 
@@ -147,11 +155,15 @@ button{
 	
 	margin:0;
 	flex-grow: 1;
-	flex-shrink: 0;
-	
-	
-	
+	flex-shrink: 0;	
 }
+
+.rosa:hover, .menu a:focus, .menu a:active {
+	background-color:#3b5998;
+	border: 1px;
+}
+
+
 
 .twitter{
 	
@@ -159,3 +171,9 @@ button{
 	flex-grow: 1;
 	flex-shrink: 0;
 }
+
+.pink:hover, .menu a:focus, .menu a:active {
+	background-color:#1da1f2;
+	border: 1px;
+
+} 
